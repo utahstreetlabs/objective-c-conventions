@@ -3,14 +3,15 @@ Unless explicitly contradicted below, assume that all of Apple's guidelines appl
 
 ## Whitespace
 
- * Tabs, not spaces.
+ * Spaces, not tabs.
+ * Indents are 4 spaces.
  * End files with a newline.
  * Make liberal use of vertical whitespace to divide code into logical chunks.
 
 ## Documentation and Organization
 
  * All method declarations should be documented.
- * Comments should be hard-wrapped at 80 characters.
+ * Comments should be hard-wrapped at 120 characters.
  * Comments should be [Tomdoc](http://tomdoc.org/)-style.
  * Use `#pragma mark`s to categorize methods into functional groupings and protocol implementations, following this general structure:
 
